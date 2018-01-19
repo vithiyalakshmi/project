@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <title>Add Movie</title>
+
+
+  <meta name="description" content="My Add Movie">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/movie.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300"/>
+</head>
+<body>
+  <header>
+    <img class="image left" src="./images/projector-logo.png" alt="issue">
+    <nav>
+      <ul class="right">
+        <li><a href='#'>Home</a></li>
+          <li><a href='#'>Add Movie</a></li>
+        </ul>
+    </nav>
+
+  </header>
+
+
+  <div class="clearfix">
+    <h2 id="add">Add a Movie</h2>
+  <form class="center" action="/sample-action">
+    <ul>
+  <li>  <label  for ="movie-name">movie name</label>
+        <input id="movie-name" type="text" name="movie-name"/></li>
+  <li>      <label  for = "Release-Year">Release Year</label>
+            <input id="Release-Year" type="text" name="Release-Year"/></li>
+  <li>      <div class="sameline">
+     <label for="language">language</label>
+              <select name="language">
+                <option value="tamil">tamil</option>
+                  <option value="english">english</option>
+                    <option value="hindi">hindi</option>
+                  </select>
+                </div><div class="sameline">
+    <label for="Rating" >Rating</label>
+    <select name="rating">
+        <option value="1">1</option>
+          <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        </li>
+          <li>  <label  for ="thumnail-url">Thumbnail-URL</label>
+                <input id="thumbnail-url" type="url" name="thumbnail-url"/></li>
+
+          <li>  <label for="plot">plot</label>
+                <textarea id="plot" rows="5" name="plot"></textarea>  </li>
+
+          <li>  <label for="post-url">Post URL</label>
+                <input id="post-url" type="url" name="post-url"/></li>
+
+                <li>  <label for="cast">cast</label>
+                      <textarea id="cast" rows="5" name="cast"></textarea>  </li>
+
+
+
+<li><input id="save" align="center" type="button" value="save" name="save"/></li>
+</ul>
+</form>
+<footer>
+  <div class="left">
+  <img class="image" src="./images/facebook.png"  alt="issue">
+  <img class="image" src="./images/instagram.png"   alt="issue">
+  <img class="image" src="./images/twitter.png"  alt="issue">
+</div></footer>
+</div>
+</body>
+</html>
